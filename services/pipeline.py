@@ -12,7 +12,7 @@ def run_pipeline():
 
     print("📥 Fetching quiz...")
     quiz, is_fallback = fetch_quiz()
-    return
+    
 
     # ❌ Stop if fallback
     if is_fallback:

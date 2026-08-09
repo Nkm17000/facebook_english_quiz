@@ -4,7 +4,7 @@ import random
 from utils.memory import load_memory, save_memory
 
 QUIZ_DIR = "assets/quiz_data"
-BATCH_SIZE = 1
+BATCH_SIZE = 10
 
 
 def load_batch_from_file(path, start, batch_size):
