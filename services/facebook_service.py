@@ -15,7 +15,7 @@ def upload_video_to_facebook(video_path, caption="Daily Quiz 🎯"):
 
     data = {
         
-        "title": title,
+     
         "description": caption,
         "published": "true",
         "access_token": FACEBOOK_ACCESS_TOKEN,
